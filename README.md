@@ -40,7 +40,7 @@ To install NLTK Data see [here]( https://www.nltk.org/data.html)
 
 Any other text file can be used for training (read the comments of the above mentioned files for a detailed explanation on how to do that). The trained chain will be saved as a json file for later use.
 
-To use Next-Word-Prediction to predict a word from user's typing, run **user.py**. This file will load a markov chain from a json file and read the text input the user is typing. To see a prediction for a next word, based on the last word/words you typed press Enter.
+To use Next-Word-Prediction to predict a word from user's typing, run **user.py**. This file will load a markov chain from a json file and read the text input the user is typing. To see a prediction for a next word, based on the last word/words you typed press Enter. To exit press q. 
 
 ## Examples
 (pictures)
