@@ -44,11 +44,11 @@ To use Next-Word-Prediction to predict a word from user's typing, run **user.py*
 
 ## Examples
 
-![example using 1st order chain](Next-Word-Prediction/pics/example1  "1st order")
+![example using 1st order chain](https://github.com/apostolidoum/Next-Word-Prediction/blob/master/pics/example1.png  "1st order")
 
-![example using 2nd order chain](Next-Word-Prediction/pics/example2  "2nd order")
+![example using 2nd order chain](https://github.com/apostolidoum/Next-Word-Prediction/blob/master/pics/example2.png  "2nd order")
 
-![example using 3rd order chain](Next-Word-Prediction/pics/example3  "3rd order")
+![example using 3rd order chain](https://github.com/apostolidoum/Next-Word-Prediction/blob/master/pics/example3.png  "3rd order")
 
 ## Test
 File **retest.py** loads an already created markov chain from a json file and tests transitions between states.
