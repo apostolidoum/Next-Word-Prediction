@@ -47,6 +47,10 @@ def load_markov_chain(order):
             sys.exit(0)
     else:
         print("Wrong Input")
+        print("Type 1 to load 1st order Markov Chain")
+        print("Type 2 to load 2nd order Markov Chain")
+        print("Type 3 to load 3rd order Markov Chain")
+        sys.exit(0)
 
 def predict_next_word(state, chain, order):
     """
