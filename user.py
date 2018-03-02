@@ -85,6 +85,12 @@ typed = []
 quit = False
 
 order = input("Choose markov chain order (1,2,3) :")
+while order not in ["1","2","3"]:
+  print("Wrong Input")
+  print("Type 1 to load 1st order Markov Chain")
+  print("Type 2 to load 2nd order Markov Chain")
+  print("Type 3 to load 3rd order Markov Chain")
+  order = input("Choose markov chain order (1,2,3) :")
 
 chain = load_markov_chain(order)
 print("--------------------------------------------------------")
