@@ -2,6 +2,9 @@
 
 Implementation of a Markov Chain to represent sequences of possible words. Using text corpora from the Gutenberg project (or any other text file) creates a markov chain model that is used to predict the next word the user is going to type. 
 
+> Visit also the project's [Homepage](http://www.intelligence.tuc.gr/~robots/ARCHIVE/2017w/projects/LAB51334662/page.html) 
+
+
 ## Description
 The general idea is that by counting the number or times *word_A* is being followed by *word_B* in a text you can generate a markov model where the states of the chain are the *words* 
 
@@ -53,4 +56,3 @@ To use Next-Word-Prediction to predict a word from user's typing, run **user.py*
 ## Test
 File **retest.py** loads an already created markov chain from a json file and tests transitions between states.
 
-## More information
